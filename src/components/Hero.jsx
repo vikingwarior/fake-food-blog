@@ -1,4 +1,5 @@
-import ""
+import { heroImg } from "../utils/constants";
+
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="hero-img-container">
-            <img src="" alt="" srcset="" />
+            <img src={heroImg} className="hero-img" alt="Women enjoying food, Meals in Bento Boxes, som cuisines stored in bowles" />
         </div>
       </div>
     </section>
