@@ -1,3 +1,7 @@
+/********************/
+/* Media*/
+/********************/
+
 import hImg from "/assets/img/hero.png";
 export const heroImg = hImg;
 
@@ -10,5 +14,16 @@ import cui6 from "/assets/img/customers/customer-6.jpg";
 
 export const customerIcons = [cui1, cui2, cui3, cui4, cui5, cui6];
 
-import logo from "/assets/img/omnifood-logo.png"
+import logo from "/assets/img/omnifood-logo.png";
 export const ofLogo = logo;
+
+/********************/
+/* Data*/
+/********************/
+
+export const headerNavList = [
+  "Section-1",
+  "Section-2",
+  "Section-3",
+  "Section-4",
+];
