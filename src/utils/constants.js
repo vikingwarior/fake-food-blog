@@ -9,3 +9,6 @@ import cui5 from "/assets/img/customers/customer-5.jpg";
 import cui6 from "/assets/img/customers/customer-6.jpg";
 
 export const customerIcons = [cui1, cui2, cui3, cui4, cui5, cui6];
+
+import logo from "/assets/img/omnifood-logo.png"
+export const ofLogo = logo;
