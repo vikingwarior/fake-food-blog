@@ -17,6 +17,11 @@ export const customerIcons = [cui1, cui2, cui3, cui4, cui5, cui6];
 import logo from "/assets/img/omnifood-logo.png";
 export const ofLogo = logo;
 
+import appScreen1 from "/assets/img/app/app-screen-1.png";
+import appScreen2 from "/assets/img/app/app-screen-2.png";
+import appScreen3 from "/assets/img/app/app-screen-3.png";
+export const appScreens = [appScreen1, appScreen2, appScreen3];
+
 /********************/
 /* Data*/
 /********************/
