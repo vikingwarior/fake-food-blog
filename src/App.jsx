@@ -1,18 +1,20 @@
 // import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
+import "./General.css"
+import "./App.css";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
 
 function App() {
-
   return (
     <>
       <Header />
       <main>
         <Hero />
+        <HowItWorks />
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
