@@ -29,10 +29,10 @@ import newYorkTimes from "/assets/img/logos/the-new-york-times.png";
 import usaToday from "/assets/img/logos/usa-today.png";
 
 export const featuredBrandLogos = [
-  { logo: businessInsider, alt: "business" },
-  { logo: forbes, alt: "forbes" },
   { logo: techCrunch, alt: "techcrunch" },
+  { logo: businessInsider, alt: "business" },
   { logo: newYorkTimes, alt: "the-new-york-times" },
+  { logo: forbes, alt: "forbes" },
   { logo: usaToday, alt: "usa-today" },
 ];
 
