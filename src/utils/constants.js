@@ -22,6 +22,20 @@ import appScreen2 from "/assets/img/app/app-screen-2.png";
 import appScreen3 from "/assets/img/app/app-screen-3.png";
 export const appScreens = [appScreen1, appScreen2, appScreen3];
 
+import businessInsider from "/assets/img/logos/business-insider.png";
+import forbes from "/assets/img/logos/forbes.png";
+import techCrunch from "/assets/img/logos/techcrunch.png";
+import newYorkTimes from "/assets/img/logos/the-new-york-times.png";
+import usaToday from "/assets/img/logos/usa-today.png";
+
+export const featuredBrandLogos = [
+  { logo: businessInsider, alt: "business" },
+  { logo: forbes, alt: "forbes" },
+  { logo: techCrunch, alt: "techcrunch" },
+  { logo: newYorkTimes, alt: "the-new-york-times" },
+  { logo: usaToday, alt: "usa-today" },
+];
+
 /********************/
 /* Data*/
 /********************/

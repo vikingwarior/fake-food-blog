@@ -128,7 +128,7 @@ a.header-nav-cta:focus {
 }
 
 .app-feature-container .grid {
-  align-items: center;
+  /* align-items: center; */
 }
 
 .app-feature-text {
