@@ -3,6 +3,7 @@ import "./General.css"
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import FeaturedIn from "./components/FeaturedIn";
 import HowItWorks from "./components/HowItWorks";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <FeaturedIn />
         <HowItWorks />
       </main>
     </>

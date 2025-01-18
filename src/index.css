@@ -109,6 +109,32 @@ a.header-nav-cta:focus {
 }
 
 /************************
+ * FEATURED IN SECTION *
+ ************************/
+
+.featured {
+    filter: brightness(0);
+    opacity: 65%;
+}
+
+.featured-in-heading {
+    text-align: center;
+}
+
+.brand-logos-container {
+    /* max-width: 90%; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4.8rem;
+    padding: 0 2rem;
+}
+
+.brand-logo {
+ height: 3.2rem;
+}
+
+/************************
  * HOW IT WORKS SECTION *
  ************************/
 
@@ -123,23 +149,15 @@ a.header-nav-cta:focus {
   gap: 7.4rem;
 }
 
-.app-feature-container d:last-of-type{
-    gap: 0;
+.app-feature-container d:last-of-type {
+  gap: 0;
 }
 
-.app-feature-container .grid {
-  align-items: center;
-}
-
-.app-feature-text {
-  /* align-self: start; */
-}
-
-.app-feature-text p{
-    font-size: 8rem;
-    font-weight: 500;
-    color: #ccc;
-    margin-bottom: 1.2rem;
+.app-feature-text p {
+  font-size: 8rem;
+  font-weight: 500;
+  color: #ccc;
+  margin-bottom: 1.2rem;
 }
 
 .app-feature-text span {
@@ -150,31 +168,31 @@ a.header-nav-cta:focus {
   word-spacing: 0.4rem;
 }
 
-.feature-image-container{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.feature-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.feature-image-container::after{
-    content: "";
-    position: absolute;
-    width: 60%;
-    background-color: #fae5d3;
-    padding-bottom: 60%;
-    border-radius: 100%;
-    z-index: -2;
+.feature-image-container::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  background-color: #fae5d3;
+  padding-bottom: 60%;
+  border-radius: 100%;
+  z-index: -2;
 }
 
-.feature-image-container::before{
-    content: "";
-    position: absolute;
-    background-color:  #f5cba7;
-    width: 45%;
-    padding-bottom: 45%;
-    border-radius: 100%;
-    z-index: -1;
+.feature-image-container::before {
+  content: "";
+  position: absolute;
+  background-color: #f5cba7;
+  width: 45%;
+  padding-bottom: 45%;
+  border-radius: 100%;
+  z-index: -1;
 }
 
 .app-feature-image {
