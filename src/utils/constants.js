@@ -36,6 +36,32 @@ export const featuredBrandLogos = [
   { logo: usaToday, alt: "usa-today" },
 ];
 
+import meal1 from "/assets/img/meals/meal-1.jpg";
+import meal2 from "/assets/img/meals/meal-2.jpg";
+
+export const mealImages = [
+  {
+    img: meal1,
+    mealName: "Japanese Gyozas",
+    categories: ["Vegetarian"],
+    nutritionalInfo: [
+      { metricKey: "calories", metricValue: 650, iconId: "flame-outline" },
+      { metricKey: "nutriScore", metricValue: 74, iconId: "restaurant-outline" },
+      { metricKey: "rating", metricValue: "4.9 (537)", iconId: "star-outline" },
+    ],
+  },
+  {
+    img: meal2,
+    mealName: "Avocado Salad",
+    categories: ["Vegan", "Paleo"],
+    nutritionalInfo: [
+      { metricKey: "calories", metricValue: 400, iconId: "flame-outline" },
+      { metricKey: "nutriScore", metricValue: 92, iconId: "restaurant-outline" },
+      { metricKey: "rating", metricValue: "4.8 (441)", iconId: "star-outline" },
+    ],
+  },
+];
+
 /********************/
 /* Data*/
 /********************/
