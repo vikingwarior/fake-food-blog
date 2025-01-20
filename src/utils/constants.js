@@ -43,20 +43,20 @@ export const mealImages = [
   {
     img: meal1,
     mealName: "Japanese Gyozas",
-    categories: ["Vegetarian"],
+    categories: ["vegetarian"],
     nutritionalInfo: [
-      { metricKey: "calories", metricValue: 650, iconId: "flame-outline" },
-      { metricKey: "nutriScore", metricValue: 74, iconId: "restaurant-outline" },
+      { metricKey: "calories", metricValue: "Calories: 650", iconId: "flame-outline" },
+      { metricKey: "nutriScore", metricValue: "Nutri Score: 74", iconId: "restaurant-outline" },
       { metricKey: "rating", metricValue: "4.9 (537)", iconId: "star-outline" },
     ],
   },
   {
     img: meal2,
     mealName: "Avocado Salad",
-    categories: ["Vegan", "Paleo"],
+    categories: ["vegan", "paleo"],
     nutritionalInfo: [
-      { metricKey: "calories", metricValue: 400, iconId: "flame-outline" },
-      { metricKey: "nutriScore", metricValue: 92, iconId: "restaurant-outline" },
+      { metricKey: "calories", metricValue: "Calories: 400", iconId: "flame-outline" },
+      { metricKey: "nutriScore", metricValue: "Nutri Score: 92", iconId: "restaurant-outline" },
       { metricKey: "rating", metricValue: "4.8 (441)", iconId: "star-outline" },
     ],
   },
