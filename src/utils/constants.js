@@ -45,8 +45,16 @@ export const mealImages = [
     mealName: "Japanese Gyozas",
     categories: ["vegetarian"],
     nutritionalInfo: [
-      { metricKey: "calories", metricValue: "Calories: 650", iconId: "flame-outline" },
-      { metricKey: "nutriScore", metricValue: "Nutri Score: 74", iconId: "restaurant-outline" },
+      {
+        metricKey: "calories",
+        metricValue: "Calories: 650",
+        iconId: "flame-outline",
+      },
+      {
+        metricKey: "nutriScore",
+        metricValue: "Nutri Score: 74",
+        iconId: "restaurant-outline",
+      },
       { metricKey: "rating", metricValue: "4.9 (537)", iconId: "star-outline" },
     ],
   },
@@ -55,8 +63,16 @@ export const mealImages = [
     mealName: "Avocado Salad",
     categories: ["vegan", "paleo"],
     nutritionalInfo: [
-      { metricKey: "calories", metricValue: "Calories: 400", iconId: "flame-outline" },
-      { metricKey: "nutriScore", metricValue: "Nutri Score: 92", iconId: "restaurant-outline" },
+      {
+        metricKey: "calories",
+        metricValue: "Calories: 400",
+        iconId: "flame-outline",
+      },
+      {
+        metricKey: "nutriScore",
+        metricValue: "Nutri Score: 92",
+        iconId: "restaurant-outline",
+      },
       { metricKey: "rating", metricValue: "4.8 (441)", iconId: "star-outline" },
     ],
   },
@@ -71,4 +87,16 @@ export const headerNavList = [
   "Section-2",
   "Section-3",
   "Section-4",
+];
+
+export const mealOptions = [
+  "Vegetarian",
+  "Vegan",
+  "Pescatarian",
+  "Gluten-free",
+  "Lactose-free",
+  "Keto",
+  "Paleo",
+  "Low FODMAP",
+  "Kid-friendly",
 ];
