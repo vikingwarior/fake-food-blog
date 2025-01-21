@@ -29,7 +29,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 66.25%;
 }
 
 body {
@@ -84,6 +84,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.page-section {
+    padding: 9.6rem 2rem;
+}
+
 /* 
    ********************
    *  GENERIC STYLES  *
@@ -94,21 +98,23 @@ body {
 .heading-secondary,
 .heading-tertiary {
   color: #333;
-  font-weight: 900;
 }
 
 .heading-primary {
+  font-weight: 900;
   font-size: 5.2rem;
   word-spacing: -0.2rem;
   line-height: 1.1;
 }
 
 .heading-secondary {
+  font-weight: 700;
   font-size: 4.4rem;
   line-height: 1.3;
 }
 
 .heading-tertiary {
+  font-weight: 700;
   font-size: 3rem;
   line-height: 1.2;
 }
@@ -152,4 +158,14 @@ body {
 .btn--outline:focus {
   background-color: inherit;
   box-shadow: inset 0 0 0 0.3rem #333;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #aaa;
+    border-radius: 100px;
 }

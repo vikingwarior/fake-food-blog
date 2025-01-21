@@ -113,25 +113,25 @@ a.header-nav-cta:focus {
  ************************/
 
 .featured {
-    filter: brightness(0);
-    opacity: 65%;
+  filter: brightness(0);
+  opacity: 65%;
 }
 
 .featured-in-heading {
-    text-align: center;
+  text-align: center;
 }
 
 .brand-logos-container {
-    /* max-width: 90%; */
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 4.8rem;
-    padding: 0 2rem;
+  /* max-width: 90%; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4.8rem;
+  padding: 0 2rem;
 }
 
 .brand-logo {
- height: 3.2rem;
+  height: 3.2rem;
 }
 
 /************************
@@ -149,9 +149,9 @@ a.header-nav-cta:focus {
   gap: 7.4rem;
 }
 
-.app-feature-container d:last-of-type {
+/* .app-feature-container div:last-of-type {
   gap: 0;
-}
+} */
 
 .app-feature-text p {
   font-size: 8rem;
@@ -204,3 +204,67 @@ a.header-nav-cta:focus {
 /* .app-feature-image:nth-of-type(2) {
   justify-self: end;
 } */
+
+/*
+ ************************
+ *    MEALS SECTION     *
+ ************************
+*/
+
+.meal-card {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-categories {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag.vegetarian {
+    background-color: #8ce99a;
+}
+
+.tag.vegan {
+    background-color: #c0eb75;
+}
+
+.tag.paleo {
+    background-color: #ffe066;
+}
+
+.meal-name {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.meal-card-text-content {
+  padding: 3.6rem 2.4rem;
+}
+
+.nutritional-info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-card ul li {
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.meal-icon {
+  color: #e67e22;
+}
