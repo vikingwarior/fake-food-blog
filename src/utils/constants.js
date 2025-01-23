@@ -78,6 +78,70 @@ export const mealImages = [
   },
 ];
 
+import benImg from "/assets/img/customers/ben.jpg";
+import daveImg from "/assets/img/customers/dave.jpg";
+import hannahImg from "/assets/img/customers/hannah.jpg";
+import steveImg from "/assets/img/customers/steve.jpg";
+
+export const testimonials = [
+  {
+    customerId: "customer-testimonial-ben",
+    customerName: "Ben Hadley",
+    testimonial:
+      "The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore!",
+    customerImg: benImg,
+  },
+  {
+    customerId: "customer-testimonial-dave",
+    customerName: "Dave Bryson",
+    testimonial:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    customerImg: daveImg,
+  },
+  {
+    customerId: "customer-testimonial-hannah",
+    customerName: "Hannah Smith",
+    testimonial:
+      "I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic.",
+    customerImg: hannahImg,
+  },
+  {
+    customerId: "customer-testimonial-steve",
+    customerName: "Steve Miller",
+    testimonial:
+      "Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now!",
+    customerImg: steveImg,
+  },
+];
+
+import gallery1 from "/assets/img/gallery/gallery-1.jpg";
+import gallery2 from "/assets/img/gallery/gallery-2.jpg";
+import gallery3 from "/assets/img/gallery/gallery-3.jpg";
+import gallery4 from "/assets/img/gallery/gallery-4.jpg";
+import gallery5 from "/assets/img/gallery/gallery-5.jpg";
+import gallery6 from "/assets/img/gallery/gallery-6.jpg";
+import gallery7 from "/assets/img/gallery/gallery-7.jpg";
+import gallery8 from "/assets/img/gallery/gallery-8.jpg";
+import gallery9 from "/assets/img/gallery/gallery-9.jpg";
+import gallery10 from "/assets/img/gallery/gallery-10.jpg";
+import gallery11 from "/assets/img/gallery/gallery-11.jpg";
+import gallery12 from "/assets/img/gallery/gallery-12.jpg";
+
+export const foodGallery = [
+    gallery1,
+    gallery2,
+    gallery3,
+    gallery4,
+    gallery5,
+    gallery6,
+    gallery7,
+    gallery8,
+    gallery9,
+    gallery10,
+    gallery11,
+    gallery12,
+];
+
 /********************/
 /* Data*/
 /********************/

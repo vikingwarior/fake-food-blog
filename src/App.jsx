@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import FeaturedIn from "./components/FeaturedIn";
 import HowItWorks from "./components/HowItWorks";
 import Meals from "./components/Meals";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <FeaturedIn />
         <HowItWorks />
         <Meals />
+        <Feedback />
       </main>
     </>
   );
