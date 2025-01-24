@@ -47,6 +47,14 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.margin-top-xs {
+  margin-top: 1.2rem !important;
+}
+
+.margin-top-sm {
+  margin-top: 1.6rem !important;
+}
+
 .margin-top-md {
   margin-top: 3.2rem !important;
 }
