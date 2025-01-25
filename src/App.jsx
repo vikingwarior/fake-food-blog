@@ -7,6 +7,7 @@ import FeaturedIn from "./components/FeaturedIn";
 import HowItWorks from "./components/HowItWorks";
 import Meals from "./components/Meals";
 import Feedback from "./components/Feedback";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <HowItWorks />
         <Meals />
         <Feedback />
+        <Pricing />
       </main>
     </>
   );

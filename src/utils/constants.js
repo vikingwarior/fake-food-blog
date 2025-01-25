@@ -128,18 +128,18 @@ import gallery11 from "/assets/img/gallery/gallery-11.jpg";
 import gallery12 from "/assets/img/gallery/gallery-12.jpg";
 
 export const foodGallery = [
-    gallery1,
-    gallery2,
-    gallery3,
-    gallery4,
-    gallery5,
-    gallery6,
-    gallery7,
-    gallery8,
-    gallery9,
-    gallery10,
-    gallery11,
-    gallery12,
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
+  gallery9,
+  gallery10,
+  gallery11,
+  gallery12,
 ];
 
 /********************/
@@ -163,4 +163,28 @@ export const mealOptions = [
   "Paleo",
   "Low FODMAP",
   "Kid-friendly",
+];
+
+export const mealSubscriptionPlans = [
+  {
+    planName: "Starter",
+    pricing: 399,
+    pricePerMeal:13,
+    features: [
+        "1 meal per day",
+        "Order times are between 11am and 9pm",
+        "Delivery is free",
+    ],
+},
+{
+    planName: "Complete",
+    pricing: 649,
+    pricePerMeal: 11,
+    features: [
+      "2 meal2 per day",
+      "Order 24/7",
+      "Delivery is free",
+      "Get access to latest recipes",
+    ],
+  },
 ];
