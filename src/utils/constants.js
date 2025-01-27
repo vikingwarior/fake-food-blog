@@ -169,22 +169,29 @@ export const mealSubscriptionPlans = [
   {
     planName: "Starter",
     pricing: 399,
-    pricePerMeal:13,
+    pricePerMeal: 13,
     features: [
-        "1 meal per day",
-        "Order times are between 11am and 9pm",
-        "Delivery is free",
+      { iconName: "checkmark-outline", featureText: "1 meal per day" },
+      { iconName: "checkmark-outline", featureText: "Delivery is free" },
+      { iconName: "close-outline", featureText: "Order  between 11am and 9pm" },
+      {
+        iconName: "close-outline",
+        featureText: "Get access to limited recipes",
+      }
     ],
-},
-{
+  },
+  {
     planName: "Complete",
     pricing: 649,
     pricePerMeal: 11,
     features: [
-      "2 meal2 per day",
-      "Order 24/7",
-      "Delivery is free",
-      "Get access to latest recipes",
+      { iconName: "checkmark-outline", featureText: "2 meals per day" },
+      { iconName: "checkmark-outline", featureText: "Delivery is free" },
+      { iconName: "checkmark-outline", featureText: "Order 24/7" },
+      {
+        iconName: "checkmark-outline",
+        featureText: "Get access to latest recipes",
+      },
     ],
   },
 ];
