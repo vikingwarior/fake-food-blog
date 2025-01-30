@@ -2,7 +2,7 @@ import { foodGallery, testimonials } from "../utils/constants";
 
 const Feedback = () => {
   return (
-    <section className="feedback page-section">
+    <section className="feedback">
       <div className="grid grid--2-cols">
         <div className="testimonials-container">
           <p className="sub-heading">Testimonials</p>

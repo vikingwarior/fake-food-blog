@@ -161,8 +161,8 @@ body {
 
 .link:hover,
 .link:focus {
-    color: #b8651b;
-    border-bottom: 1px solid transparent;
+  color: #b8651b;
+  border-bottom: 1px solid transparent;
 }
 
 .btn:link,

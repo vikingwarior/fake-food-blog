@@ -220,9 +220,9 @@ a.header-nav-cta:focus {
 }
 
 .meal-card:hover {
-    cursor: pointer;
-    transform: translateY(-1.6rem);
-    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transform: translateY(-1.6rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.05);
 }
 
 .meal-img {
@@ -234,17 +234,16 @@ a.header-nav-cta:focus {
   gap: 0.4rem;
 }
 
-
 .tag.vegetarian {
-    background-color: #8ce99a;
+  background-color: #8ce99a;
 }
 
 .tag.vegan {
-    background-color: #c0eb75;
+  background-color: #c0eb75;
 }
 
 .tag.paleo {
-    background-color: #ffe066;
+  background-color: #ffe066;
 }
 
 .meal-name {
@@ -279,16 +278,15 @@ a.header-nav-cta:focus {
 }
 
 .meal-types-card {
-    align-self: start;
+  align-self: start;
 }
 
 .meal-types-list {
-    gap: 2.4rem;
+  gap: 2.4rem;
 }
 
-
 .more-recipes {
-    text-align: center;
+  text-align: center;
 }
 
 /*
@@ -298,26 +296,25 @@ a.header-nav-cta:focus {
 */
 
 section.feedback {
-    background-color: #fae5d3;
-    padding: 9.6rem;
+  background-color: #fae5d3;
+  padding: 9.6rem;
 }
 
 .feedback div.grid.grid--2-cols {
-    grid-template-columns: 55fr 45fr;
-    gap: 4.8rem;
+  grid-template-columns: 55fr 45fr;
 }
 
 .testimonials-container {
-    align-self: start;
+  align-self: start;
 }
 
 div.testimonials {
-    gap: 4.8rem;
+  gap: 4.8rem;
 }
 
-.testimonials img{
-    border-radius: 100%;
-    height: 6.4rem;
+.testimonials img {
+  border-radius: 100%;
+  height: 6.4rem;
 }
 
 .testimonial-text {
@@ -328,23 +325,79 @@ div.testimonials {
 }
 
 .customer-name {
-    font-size: 1.6rem;
-    color: #666;
+  font-size: 1.6rem;
+  color: #666;
 }
 
 div.image-gallery {
-    gap: 1.2rem;
+  gap: 1.2rem;
 }
 
-.image-gallery figure{
-    overflow: hidden;
+.image-gallery figure {
+  overflow: hidden;
 }
 
-.image-gallery figure img{
-    width: 100%;
-    transition: all 0.4s;
+.image-gallery figure img {
+  width: 100%;
+  transition: all 0.4s;
 }
 
-.image-gallery figure img:hover{
-    scale: 1.1;
+.image-gallery figure img:hover {
+  scale: 1.1;
+}
+
+/*
+ *************************
+ *    PRICING SECTION    *
+ *************************
+*/
+
+.pricing-card {
+  width: 60%;
+  padding: 4.8rem;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.pricing-card:first-of-type {
+  box-shadow: inset 0 0 0 0.2rem #fae5d3;
+  justify-self: end;
+}
+
+.pricing-card:last-of-type {
+  background-color: #fae5d3;
+  position: relative;
+  scale: 1.08;
+  overflow: hidden;
+}
+
+.pricing-card:last-of-type::after{
+  content: "Best";
+  position: absolute;
+  text-transform: uppercase;
+  top: 2.1rem;
+  right: -2.9rem;
+  padding: 0.4rem 3.6rem;
+  font-weight: 900;
+  font-size: 1.8rem;
+  transform: rotate(45deg);
+  background-color: #ffe066;
+
+}
+
+.plan-header {
+}
+
+.plan-name {
+}
+
+.plan-price {
+}
+
+ul.subscription-features-list.clean-list {
+  gap: 2.4rem;
+}
+
+ul.subscription-features-list.clean-list li {
+  
 }
