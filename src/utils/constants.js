@@ -177,7 +177,7 @@ export const mealSubscriptionPlans = [
       {
         iconName: "close-outline",
         featureText: "Get access to limited recipes",
-      }
+      },
     ],
   },
   {
@@ -193,5 +193,32 @@ export const mealSubscriptionPlans = [
         featureText: "Get access to latest recipes",
       },
     ],
+  },
+];
+
+export const appFeatures = [
+  {
+    iconName: "infinite-outline",
+    featureHeadline: "Never cook again!",
+    featureDescription:
+      "Our subscriptions cover 365 days per year, even including major holidays.",
+  },
+  {
+    iconName: "nutrition-outline",
+    featureHeadline: "Local and organic",
+    featureDescription:
+      "Our cooks only use local, fresh, and organic products to prepare your meals.",
+  },
+  {
+    iconName: "leaf-outline",
+    featureHeadline: "No waste",
+    featureDescription:
+      "All our partners only use reusable containers to package all your meals.",
+  },
+  {
+    iconName: "pause-outline",
+    featureHeadline: "Pause anytime",
+    featureDescription:
+      "Going on vacation? Just pause your subscription, and we refund unused days.",
   },
 ];
