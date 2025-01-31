@@ -1,4 +1,5 @@
 import { mealSubscriptionPlans } from "../utils/constants";
+import Features from "./Features";
 
 const Pricing = () => {
   return (
@@ -38,6 +39,7 @@ const Pricing = () => {
           )
         )}
       </div>
+      <Features />
     </section>
   );
 };

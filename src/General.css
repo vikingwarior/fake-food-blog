@@ -48,7 +48,7 @@ body {
 }
 
 .margin-top-xs {
-  margin-top: 1.2rem !important;
+  margin-top: 0.8rem !important;
 }
 
 .margin-top-sm {
@@ -83,12 +83,20 @@ body {
   align-items: center;
 }
 
+.grid:not(last){
+  /* margin-bottom: 8.6rem; */
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .clean-list {
