@@ -2,7 +2,7 @@ import { appFeatures } from "../utils/constants";
 
 const Features = () => {
   return (
-    <div className="grid grid--4-cols margin-top-xl platform-feature-container">
+    <div className="grid grid--4-cols margin-top-xxl platform-feature-container container">
       {appFeatures.map(({ featureHeadline, featureDescription, iconName }) => (
         <div className="platform-feature" key={"app-feature-" + iconName}>
           <ion-icon class="meal-icon feature-icon" name={iconName}></ion-icon>
